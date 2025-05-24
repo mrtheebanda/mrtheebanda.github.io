@@ -52,6 +52,12 @@ body {
   display: block;
   margin: 0 auto;
 }
+.profile {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  position: relative;
+}
 
 
 .container h1 {
