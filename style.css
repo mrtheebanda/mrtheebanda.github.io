@@ -1,0 +1,69 @@
+/* ฟอนต์และรีเซ็ตเบื้องต้น */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* หัวเว็บ */
+.main-header {
+  background-image: url('https://images.unsplash.com/photo-1581093588401-7f6c3fba3e7e'); /* รูปพื้นหลัง */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* คลุมสีดำบางๆ */
+.main-header .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* คอนเทนเนอร์ */
+.container {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* ปุ่ม */
+.btn-primary {
+  background-color: #2196f3;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1976d2;
+}
